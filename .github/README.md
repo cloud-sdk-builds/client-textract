@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-textract`](https://www.npmjs.com/package/@aws-sdk/client-textract/v/3.181.0).
+[`@aws-sdk/client-textract`](https://www.npmjs.com/package/@aws-sdk/client-textract/v/3.183.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-textract@3.181.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-textract@3.183.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-B9P5s5cCvNpBQMCT/S3p7W3ZSQ2pJzDIXA6bw0qzXJXqfh53jciQn6kOJeauv2TZ
+sha384-jooFwfOYH6+VBqpgmWJYEsF/9EtCLi4zL/zeXVEq45ROZatcEQGD6Wsiak3P/kfL
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-textract": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-textract@3.181.0/index.min.mjs"
+            "@aws-sdk/client-textract": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-textract@3.183.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-textract@3.181.0/index.min.mjs": "sha384-B9P5s5cCvNpBQMCT/S3p7W3ZSQ2pJzDIXA6bw0qzXJXqfh53jciQn6kOJeauv2TZ"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-textract@3.183.0/index.min.mjs": "sha384-jooFwfOYH6+VBqpgmWJYEsF/9EtCLi4zL/zeXVEq45ROZatcEQGD6Wsiak3P/kfL"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-textract": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-textract@3.181.0/index.min.mjs"
+                        "@aws-sdk/client-textract": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-textract@3.183.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-textract@3.181.0/index.min.mjs": "sha384-B9P5s5cCvNpBQMCT/S3p7W3ZSQ2pJzDIXA6bw0qzXJXqfh53jciQn6kOJeauv2TZ"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-textract@3.183.0/index.min.mjs": "sha384-jooFwfOYH6+VBqpgmWJYEsF/9EtCLi4zL/zeXVEq45ROZatcEQGD6Wsiak3P/kfL"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.181.0`)
+* Always pin to a specific version (`@3.183.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-textract/blob/refs/tags/3.181.0/LICENSE
+https://github.com/cloud-sdk-builds/client-textract/blob/refs/tags/3.183.0/LICENSE
 ```
 
 ---
